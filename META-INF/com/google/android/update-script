@@ -77,6 +77,9 @@ set_perm_recursive 0 2000 0755 0644 SYSTEM:vendor
 set_perm_recursive 0 0 0755 0644 SYSTEM:vendor/firmware
 set_perm 0 2000 0755 SYSTEM:vendor/firmware
 set_perm_recursive 0 2000 0755 0755 SYSTEM:xbin
+set_perm 0 1000 0755 SYSTEM:xbin/busybox
+symlink /system/xbin/busybox SYSTEM:bin/busybox
+run_program PACKAGE:system/xbin/busybox --install -s SYSTEM:xbin
 set_perm 0 0 06755 SYSTEM:xbin/su
 symlink /system/xbin/su SYSTEM:bin/su
 show_progress 0.1 10
