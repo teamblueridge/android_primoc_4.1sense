@@ -274,3 +274,6 @@ ro.service.dpsvr.enabled=true
 dalvik.vm.dexopt-flags=m=y
 net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
+
+#ADB persist
+persist.sys.usb.config=adb
