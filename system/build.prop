@@ -36,7 +36,7 @@ ro.ril.vmail.23410=901,O2 UK,905,TESCO,443,giffgaff
 ro.ril.vmail.22201=41901,I TIM
 ro.ril.vmail.22210=42020,Vodafone IT
 ro.ril.vmail.22288=4200,I WIND
-ro.product.model=HTC Desire X
+ro.product.model=HTC One V
 ro.config.htc.enableCOTA=1
 ro.ril.enable.pre_r8fd=1
 ro.ril.fd.pre_r8_tout.scr_off=2
@@ -52,7 +52,7 @@ htc.build.stage=2
 ro.aa.customizationid=429725
 ro.aa.project=PROTO_U_ICS_40A
 ro.aa.maincid=HTC__001
-ro.aa.modelid=PM6610000
+ro.aa.modelid=PK7630000
 ro.aa.rid=707
 ro.aa.taskid=295191
 ro.aa.cidlist=HTC__001,HTC__E11,HTC__203,HTC__102,HTC__405,HTC__Y13,HTC__M27,HTC__J15,HTC__032,HTC__A07,HTC__304,HTC__016
@@ -137,7 +137,7 @@ ro.ril.hsxpa = 2
 ro.telephony.default_network = 0
 
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=15
+wifi.supplicant_scan_interval=150
 wifi.softap.interface=wlan0
 wifi.softapconcurrent.interface=wl0.1
 
@@ -225,7 +225,7 @@ service.brcm.bt.local_name =
 
 # Following property will be reference by Settings.
 ro.product.processor = 1GHz dualcore
-ro.product.ram = 768MB
+ro.product.ram = 512MB
 ro.product.display_resolution = 4 inch WVGA resolution
 ro.product.main_camera = 5M
 ro.product.front_camera = NA
