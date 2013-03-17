@@ -1,0 +1,5 @@
+#File backups
+*~
+
+#apktool directorys shouldn't be pushed
+*.out
