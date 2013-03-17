@@ -76,10 +76,10 @@ ro.build.user=
 ro.build.host=abm027
 ro.build.tags=release-keys
 ro.product.model=X515e
-ro.product.brand=htc_europe
-ro.product.name=protou
-ro.product.device=protou
-ro.product.board=protou
+ro.product.brand=virgin_mobile
+ro.product.name=primoc
+ro.product.device=primoc
+ro.product.board=primoc
 ro.product.cpu.abi=armeabi-v7a
 ro.product.cpu.abi2=armeabi
 ro.product.manufacturer=HTC
@@ -87,7 +87,7 @@ ro.product.locale.language=hdpi
 ro.wifi.channels=
 ro.board.platform=msm7k
 # ro.build.product is obsolete; use ro.product.device
-ro.build.product=protou
+ro.build.product=primoc
 # Do not try to parse ro.build.description or .fingerprint
 ro.build.description=1.18.401.1 CL128557 release-keys
 ro.build.description=1.18.401.1 CL128557 release-keys
@@ -133,11 +133,11 @@ ro.ril.hsupa.category = 6
 ro.ril.hsxpa = 2
 
 # Default network type
-# 0 => WCDMA Preferred.
-ro.telephony.default_network = 0
+# 4 => CDMA only.
+ro.telephony.default_network = 4
 
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=150
+wifi.supplicant_scan_interval=15
 wifi.softap.interface=wlan0
 wifi.softapconcurrent.interface=wl0.1
 
@@ -224,9 +224,9 @@ service.brcm.bt.avrcp_toggle = 1
 service.brcm.bt.local_name =
 
 # Following property will be reference by Settings.
-ro.product.processor = 1GHz dualcore
+ro.product.processor = Single Core
 ro.product.ram = 512MB
-ro.product.display_resolution = 4 inch WVGA resolution
+ro.product.display_resolution = 3.7 inch WVGA resolution
 ro.product.main_camera = 5M
 ro.product.front_camera = NA
 ro.product.bluetooth = 4.0
@@ -245,7 +245,8 @@ ro.product.hwreset = 1
 persist.sys.shutdown.mode = hibernate
 
 # Disable 3 fingers swipe on proto device
-ro.framework.gestureservice=0
+# ro.framework.gestureservice=0
+
 # System prop for enabling discontinuity for HLS Variant Playlist
 httplive.enable.discontinuity = true
 
