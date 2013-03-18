@@ -278,3 +278,4 @@ dalvik.vm.stack-trace-file=/data/anr/traces.txt
 
 #ADB persist
 persist.sys.usb.config=adb
+persist.service.adb.enable=1
